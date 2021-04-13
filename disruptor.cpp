@@ -9,8 +9,8 @@ unsigned disruptor::s_disruptorCount = 0;
 
 disruptor::disruptor(std::shared_ptr<std::vector<suspect>> suspects, std::shared_ptr<std::mutex> roomMutex,
                      std::shared_ptr<std::atomic_bool> culpritFound)
-    : m_roomMutex(roomMutex)
-    , m_suspects(suspects)
+    : m_suspects(suspects)
+    , m_roomMutex(roomMutex)
     , m_culpritFound(culpritFound)
 {
     m_id = ++s_disruptorCount;
