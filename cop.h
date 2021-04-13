@@ -1,7 +1,10 @@
 #ifndef M4101C_PROJET_COP_H
 #define M4101C_PROJET_COP_H
 
+#include <atomic>
+#include <memory>
 #include <mutex>
+#include <vector>
 
 #include "lightswitch.h"
 #include "suspect.h"

@@ -1,6 +1,7 @@
 #ifndef M4101C_PROJET_LIGHTSWITCH_H
 #define M4101C_PROJET_LIGHTSWITCH_H
 
+#include <memory>
 #include <mutex>
 
 class lightswitch

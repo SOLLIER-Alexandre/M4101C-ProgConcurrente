@@ -1,6 +1,7 @@
 #ifndef M4101C_PROJET_INTERROGATION_ROOM_H
 #define M4101C_PROJET_INTERROGATION_ROOM_H
 
+#include <atomic>
 #include <memory>
 #include <vector>
 #include <thread>
